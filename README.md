@@ -1,12 +1,13 @@
 # CSC-336-Final-Project
 
-1. The title/theme of your web app.
+1. The title/theme of your web app.\n
 Apple products’ price comparing between different shopping platforms. 
  
-2. Your team members
+2. Your team members\n
 Haozhe Wu, Ash Xu
  
 3. What is your goal? What does your web app do?  What are some of the special features?  Who would like to use this web app?
+
 Our main goal is that by browsing our website, users can clearly know from which website they can buy the same Apple products at the lowest price. 
 Our website will show the viewers the price comparison of Apple products on various shopping sites so that viewers can directly see the different discounts provided by different sites. 
 Users will save a lot of time by visiting our website because they don’t need to browse every shopping website to search for the best deal for one product. 
