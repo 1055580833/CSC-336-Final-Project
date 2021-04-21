@@ -1,9 +1,11 @@
 # CSC-336-Final-Project
 
-1. The title/theme of your web app.\n
+1. The title/theme of your web app.
+
 Apple products’ price comparing between different shopping platforms. 
  
-2. Your team members\n
+2. Your team members
+
 Haozhe Wu, Ash Xu
  
 3. What is your goal? What does your web app do?  What are some of the special features?  Who would like to use this web app?
@@ -14,9 +16,11 @@ Users will save a lot of time by visiting our website because they don’t need 
 Our target audiences are those who are considering buying a new Apple product at a decent price, whether it’s released recently or a few years ago. 
 
 4.  What software tools do you use? 
+
 HTML, CSS, API, JSON
  
 5. What are some of the challenges? 
+
 Finding the same item on different sites can be challenging because the same item may have different names or titles on different sites.
 Second, it was difficult to find some API that suited our theme. We need to find some API that is reliable, real, and has clear data classification. 
 Third, given our unfamiliarity with API, we may need to spend more time on putting the data from different websites together. 
