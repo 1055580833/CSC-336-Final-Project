@@ -3,6 +3,7 @@
 
     window.onload = function(){
         gallery();
+        document.getElementById("submit").addEventListener("click", sub)
 
     }
 
@@ -28,8 +29,11 @@
                 clearInterval(add)
             }
         },4000)
+    }
 
-
+    //Subscribe button action
+    function sub(){
+        alert("Thank you for subscription!")
     }
 
 })();
