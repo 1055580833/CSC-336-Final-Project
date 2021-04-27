@@ -5,6 +5,21 @@
         gallery();
         document.getElementById("submit").addEventListener("click", sub)
 
+
+        fetch("https://amazon-price1.p.rapidapi.com/priceReport?marketplace=ES&asin=ipad", {
+            "method": "GET",
+            "headers": {
+                "x-rapidapi-key": "9eabc92e42mshcbe2969f600a38bp1162f5jsn52a0ef3d2cdf",
+                "x-rapidapi-host": "amazon-price1.p.rapidapi.com"
+            }
+        })
+            .then(response => {
+                alert(response);
+            })
+            .catch(err => {
+                console.error(err);
+            });
+
     }
 
     //Change the main image automatically
