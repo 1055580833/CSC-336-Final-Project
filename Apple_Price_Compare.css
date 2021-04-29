@@ -34,8 +34,8 @@ ul{
     display: inline-block;
     width: 1200px;
 }
-ul:hover{
-    background-color: #672526;
+li a:hover{
+    background-color: skyblue;
 }
 
 .text{
@@ -85,4 +85,44 @@ input{
     width: 1200px;
     border: 3px solid bisque;
     border-radius: 10px;
+}
+
+.product-header{
+    text-align: left; 
+    border-top:0;
+}
+
+.display-desc{
+    display:flex;
+}
+.product-display{
+    display: table-cell;
+    vertical-align: top;
+    width: 200px;
+    padding-right: 1em;
+}
+#product-display{
+    max-width:200px;
+}
+.product-descript{
+    font-size: 20px;
+    max-width:1000px;
+}
+
+table{
+    width:1200px;
+    margin-bottom: 10px;
+}
+
+th, td{
+    padding: 7px 10px 10px 10px;
+    
+}
+th img{
+    height:35px;
+}
+
+td{
+    border-bottom: 2px solid #111111;
+    border-right: 2px solid #111111;
 }
