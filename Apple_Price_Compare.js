@@ -3,10 +3,9 @@
 
     window.onload = function(){
         gallery();
-        document.getElementById("submit").addEventListener("click", sub)
+        userSignIn();
+        document.getElementById("submit").addEventListener("click", sub);
 
-    
-        
     }
 
     //Change the main image automatically
@@ -33,9 +32,29 @@
         },4000)
     }
 
+
     //Subscribe button action
     function sub(){
         alert("Thank you for subscription!")
+    }
+
+
+    //Create a personalized experience
+    function userSignIn() {
+        let name = prompt("Hi! Please enter your name");
+        let random = parseInt(Math.random() * 100);
+
+        if (name != null) {
+            if (random % 4 < 1) {
+                alert("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new Mac?");
+            } else if (random % 4 >= 1 && random % 4 < 2) {
+                alert("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new iPad?");
+            } else if (random % 4 >= 2 && random % 4 < 3) {
+                alert("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new iPhone?");
+            } else if (random % 4 >= 3 && random % 4 < 4) {
+                alert("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new Apple Watch?");
+            }
+        }
     }
 
 })();
