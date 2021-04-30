@@ -41,18 +41,19 @@
 
     //Create a personalized experience
     function userSignIn() {
-        let name = prompt("Hi! Please enter your name");
+        let name = prompt("Hi! What's your name?");
         let random = parseInt(Math.random() * 100);
+        let user = document.getElementById("user");
 
         if (name != null) {
             if (random % 4 < 1) {
-                alert("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new Mac?");
+                user.innerText = ("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new Mac?");
             } else if (random % 4 >= 1 && random % 4 < 2) {
-                alert("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new iPad?");
+                user.innerText = ("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new iPad?");
             } else if (random % 4 >= 2 && random % 4 < 3) {
-                alert("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new iPhone?");
+                user.innerText = ("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new iPhone?");
             } else if (random % 4 >= 3 && random % 4 < 4) {
-                alert("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new Apple Watch?");
+                user.innerText = ("Hi " + name + "! Your lucky number is " + random + ". Do you want to buy a new Apple Watch?");
             }
         }
     }

@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 
 body{
     text-align: center;
     background-color: #f5f5f7;
     width: 1200px;
 }
+
+#user{
+    font-family: 'New Tegomin', serif;
+    font-size: 18px;
+    color: darkorange;
+}
+
 #big_title{
     font-size: 24pt;
     font-family: 'Noto Serif SC', serif;
