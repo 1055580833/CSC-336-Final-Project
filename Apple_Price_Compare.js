@@ -5,7 +5,8 @@
         gallery();
         document.getElementById("submit").addEventListener("click", sub)
 
-
+    
+        
     }
 
     //Change the main image automatically

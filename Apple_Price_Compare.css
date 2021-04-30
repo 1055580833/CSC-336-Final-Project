@@ -131,3 +131,11 @@ th{
     border: 2px solid #111111;
 }
 
+.w3c a{
+    background-color: transparent;
+}
+.w3c a img{
+    border-style:none;
+    width: 88px;
+    height: 31px;
+}
