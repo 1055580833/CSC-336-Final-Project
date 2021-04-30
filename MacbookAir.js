@@ -6,7 +6,7 @@
         
     //fetch price from amazon.
 
-    //fetch("https://amazon-price1.p.rapidapi.com/search?marketplace=US&keywords=M1%20MacBook%20Air", {
+    fetch("https://amazon-price1.p.rapidapi.com/search?marketplace=US&keywords=M1%20MacBook%20Air", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "ede3e37a32msh7ee72e454d92ddcp170afcjsn8d76ea6ebec4",
@@ -24,7 +24,7 @@
         }
       
     // fetch price from Best Buy
-    //fetch("https://bestbuy-products.p.rapidapi.com/product?url=https%253A%252F%252Fwww.bestbuy.com%252Fsite%252Fmacbook-air-13-3-laptop-apple-m1-chip-8gb-memory-256gb-ssd-latest-model-space-gray%252F5721600.p%253FskuId%253D5721600&sku=5721600", {
+    fetch("https://bestbuy-products.p.rapidapi.com/product?url=https%253A%252F%252Fwww.bestbuy.com%252Fsite%252Fmacbook-air-13-3-laptop-apple-m1-chip-8gb-memory-256gb-ssd-latest-model-space-gray%252F5721600.p%253FskuId%253D5721600&sku=5721600", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "ede3e37a32msh7ee72e454d92ddcp170afcjsn8d76ea6ebec4",
