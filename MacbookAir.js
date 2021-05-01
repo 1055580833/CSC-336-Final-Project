@@ -20,7 +20,8 @@
     // });
 
         function displayData(response){
-            document.getElementById('item-desc1').textContent = response[0].title; document.getElementById('amazon1').textContent = response[0].price;   
+            document.getElementById('item-desc1').textContent = response[0].title;
+            document.getElementById('amazon1').textContent = response[0].price;
         }
       
     // fetch price from Best Buy
@@ -36,10 +37,10 @@
     // .catch(err => {
 	//        console.error(err);
     // });
-    //
-    //     function displayData1(response){
-    //     document.getElementById('bestbuy').textContent = response.prices.currency+response.prices.current_price;
-    // }
+
+        function displayData1(response){
+        document.getElementById('bestbuy').textContent = response.prices.currency+response.prices.current_price;
+    }
     
     }
   
